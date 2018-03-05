@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    min-width: 250px;
+    background-image: url(imag434.jpg);
+    background-size: cover;
+  }
+  
+  /* Include the padding and border in an element's total width and height */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Remove margins and padding from the list */
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #MyToDoList {
+      text-align: center;
+  }
+  .header {
+    background-color: #12c9cf;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    opacity: 0.8; 
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the input */
+  input {
+    border: none;
+    width: 75%;
+    padding: 10px;
+    float: none;
+    font-size: 16px;
+     
+  }
+  button {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+  }
+  button:hover {
+    background-color: #bbb;
+  }
+
+  #myUL {
+      display: inline;
+       
+  }
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
